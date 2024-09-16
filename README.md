@@ -1,2 +1,2 @@
-# m8-smx-L-pez
+# m8-smx-López
 Repositorio para la asignatura M8 de SMX2 (FP Lefia)
