@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.navegacion {
+    background: rgb(68, 227, 255);
+    padding: 20px;
+    border-bottom: 4px solid #000;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.enlace {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    margin: 10%;
+    background: #444;
+    border-radius: 20px;
+}
+
+span {
+    text-transform: uppercase;
+    color: red;
+    font-style: italic;
+}
+
+.content {
+    margin: 3% 7%;
+}
+
+.texto {
+    border: 2px solid #000;
+    padding: 10px;
+}
