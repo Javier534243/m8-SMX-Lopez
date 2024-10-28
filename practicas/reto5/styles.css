@@ -1,59 +1,159 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #fafaFa;
     color: #333;
     margin: 0;
     padding: 0;
 } 
 
-#inicio {
-    margin-top: 0px;
+header {
+  background-color: #333;
+  padding: 1em 0;
+  text-align: center;
 }
 
-header {
-    background-color: #333;
-    padding: 2.5em;
-    text-align: center;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 15px;
-  }
-  
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  nav ul li a:hover {
-    text-decoration: underline;
-  }
+h1, h2 {
+  text-align: center;
+  color: #007bff;
+  padding: 10px;
+}
 
-  section {
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 800px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+p {
+  line-height: 1.75em
+}
 
-  footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-  }
+section ul {
+  line-height: 2;
+  font-size: 1.1em;
+  text-align:left;
+  padding-left: 30px;
+}
 
-  h1, h2 {
-    text-align: center;
-    color: #007bff;
-  }
-  
+
+#inicio p {
+  line-height: 1.75em;
+  padding-bottom: 15px;
+}
+
+#sobre-mi p{
+  line-height: 1.75em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+nav ul li {
+  font-size: 19px; 
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+section {
+  margin: 25px auto;
+  padding: 50px 20px;
+  padding-bottom: 80px;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+#inicio {
+  margin-top: 0;
+  text-align: center;
+}
+
+#primer-parrafo{
+  text-align:left;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+#sobre-mi {
+  background-color: #F0F0F0;
+  padding-top: 55px;
+  padding-bottom: 50px;
+}
+
+#sobre-mi ul {
+  line-height: 2.6em;
+  font-size: 1.09em;
+  padding-left: 30px;
+}
+
+#servicios {
+  margin-top: 0;
+  text-align: center;
+}
+
+#servicios p{
+  text-align:left;
+}
+
+
+#servicios ul{
+  line-height: 2;
+  font-size: 1.1em;
+  text-align:left;
+}
+
+#servicios li{
+  margin-top: 10px;
+}
+
+#proyectos {
+  background-color: #F0F0F0;
+  text-align:center;
+}
+
+#proyectos ul {
+  line-height: 2;
+  font-size: 1.1em;
+  text-align:left;
+  padding-left: 30px;
+}
+
+#proyectos li {
+  margin-top: 10px;
+}
+
+#proyectos p {
+  text-align:left;
+}
+
+#contacto li {
+  color: blue;
+  text-decoration: underline;
+  line-height: 2.5;
+}
+
+#contacto li::marker {
+  color: #000;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
