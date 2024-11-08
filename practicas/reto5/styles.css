@@ -6,10 +6,34 @@ body {
     padding: 0;
 } 
 
+/* Menu de navegación */
+
 header {
   background-color: #333;
-  padding: 1em 0;
+  padding: 1.8em 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
   text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 10px 15px;
+}
+
+nav ul li a:hover {
+  background-color: #007BFF;
+  border-radius: 5px;
 }
 
 h1, h2 {
@@ -37,30 +61,6 @@ section ul {
 
 #sobre-mi p{
   line-height: 1.75em;
-}
-
-nav ul {
-  list-style: none;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-}
-
-nav ul li {
-  font-size: 19px; 
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  padding: 20px 20px;
-}
-
-nav ul li a:hover {
-  background-color: #007bff;
-  padding: 10px 20px;
-  border-radius: 5px;
 }
 
 section {
@@ -150,10 +150,38 @@ img {
   color: #000;
 }
 
+/* Footer */
 
 footer {
   background-color: #333;
-  color: white;
+  padding: 40px 0;
+  color: #fff;
   text-align: center;
-  padding: 10px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-info {
+  font-size: 0.9em;
+}
+
+.footer-icons {
+  font-size: 1.5em;
+}
+
+.footer-icons a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  color: #007BFF;
 }
