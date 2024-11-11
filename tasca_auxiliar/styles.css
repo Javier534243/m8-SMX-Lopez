@@ -1,12 +1,14 @@
 body {
     margin: 0;
+    color: aliceblue;
+    background-image:url(imagen-fondo.jpeg);
 }
 
 main {
     background-color: brown;
     margin: 5px 100px;
-    padding: 20px 30px;
-    border-radius: 15px;
+    padding: 30px 40px;
+    border-radius:30px;
 }
 
 h1 {
@@ -43,4 +45,14 @@ li {
 
 li:last-child {
     padding-bottom: 0;
+}
+
+#descripcion {
+    background-color: #253c87;
+    padding: 60px 40px 50px 40px;
+    text-align: center;
+}
+
+#descripcion> h2{
+    color: #f07325;
 }
