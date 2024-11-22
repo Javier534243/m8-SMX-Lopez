@@ -31,16 +31,12 @@ main> h2 {
     border: 4px solid #3fbb3f;
     padding: 10px 40px;
     color: #4c7cc4;
-    font-weight: 700;
-    text-indent: 20px;
-}
-
-ul {
-    padding: 0 20px;
+    font-weight: 700; 
 }
 
 li {
     padding-bottom: 35px;
+    padding-left: 20px; 
 }
 
 li:last-child {
@@ -48,11 +44,15 @@ li:last-child {
 }
 
 #descripcion {
-    background-color: #253c87;
+    background-color: #20487c;
     padding: 60px 40px 50px 40px;
     text-align: center;
 }
 
 #descripcion> h2{
-    color: #f07325;
+    color: #f37120;
+}
+
+#contenido {
+    padding-right: 20px;
 }
