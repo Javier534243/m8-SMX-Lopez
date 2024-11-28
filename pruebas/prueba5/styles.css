@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    color: aliceblue;
+}
+
+nav {
+    text-align: center;
+}
+
+
+.list-nav {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+}
