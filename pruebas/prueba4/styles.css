@@ -51,6 +51,11 @@ div:hover {
     box-shadow: 0 0 14px 11px #116dbd;
 }
 
+div:active {
+    width: 50%;
+    box-shadow: 0 0 14px 11px #f22 ;
+}
+
 footer {
     background-color: #333;
     padding: 10px 0;
