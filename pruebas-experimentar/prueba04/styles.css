@@ -32,7 +32,6 @@ div{
     box-shadow: 36px 21px 14px 11px rgba(0,0,0,0.73);
     transition: .5s;
     transition-property: width, box-shadow;
-
 }
 
 img {
