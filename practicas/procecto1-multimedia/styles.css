@@ -7,6 +7,7 @@ body {
     font-family: Montserrat;
     font-weight: 400;
     line-height: 1.6;
+    box-sizing: ;
 }
 
 /* --- HEADER --- */
@@ -47,7 +48,7 @@ body {
     transition: color .2s, background-color .2s;
 }
 
-.header__link:hover {
+.link--iniciar-sesion:hover {
     color: #000;
     background-color: #fff;
 }
@@ -57,6 +58,12 @@ body {
 main{
     display: flex;
 }
+
+.section__titulo {
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
 p {
     margin: 20px 0;
 }
@@ -80,6 +87,7 @@ p {
 .video {
     display: flex;
     max-width: 100%;
+    aspect-ratio: 16/9;
 }
 
 iframe {
@@ -98,4 +106,14 @@ footer {
     color: #fff;
     padding: 10px 0;
     margin-top: 30px;
+    font-family: Montserrat;
+    font-weight: 100;
+}
+
+/* --- MEDIA --- */
+
+@media screen and (max-width: 1200px) {
+    .section__parrafo {
+        padding: 0 20px;
+    }
 }
