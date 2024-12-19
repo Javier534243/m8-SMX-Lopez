@@ -6,6 +6,7 @@
 body {
     font-family: Montserrat;
     font-weight: 400;
+    line-height: 1.6;
 }
 
 /* --- HEADER --- */
@@ -53,9 +54,21 @@ body {
 
 /* --- MAIN --- */
 
+main{
+    display: flex;
+}
+p {
+    margin: 20px 0;
+}
+
+.espacio {
+    flex: 1;
+}
+
 .section {
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
+    flex: 1;
 }
 
 .section__titulo {
@@ -64,9 +77,6 @@ body {
 }
 
 
-    color: #f00;
-}
-
 .video {
     display: flex;
     max-width: 100%;
@@ -74,9 +84,18 @@ body {
 
 iframe {
     margin: auto;
+    border-radius: 20px;
+    border: #333;
 }
 
 
-
-
 /* --- FOOTER -- */
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 30px;
+}
