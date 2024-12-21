@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+    align-content: space-evenly;
+    border: 2px solid #000;
+    margin: 20px;
+}
+
+.grid-item {
+    background-color: #48e;
+    font-size: 30px;
+    max-width: 100%;
+    border-radius: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.grid-item:first-child {
+    background-color: #e66;
+    grid-area: 2/2/span 2/span 2;
+}
+
+.grid-item:hover {
+    opacity: 0.74;
+}
