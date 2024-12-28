@@ -254,6 +254,13 @@ h1 {
     display: grid;
     grid-template-columns: 1fr;
     max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    padding: 12px;
+}
+
+.portfolio__project {
+    background-image: url("dalto.png");
 }
 
 
